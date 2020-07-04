@@ -80,7 +80,7 @@ $sign = strtoupper(hash('sha256', implode(':', $arHash)));
                 clientEmail : "some@mail.com",
                 clientPhone: "380631234567",
 		straightWidget: true,
-                language: "UA"
+                language: "EN"
             },
             function (response) {
                 // on approved             
