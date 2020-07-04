@@ -70,7 +70,7 @@ $sign = strtoupper(hash('sha256', implode(':', $arHash)));
                 merchantSignature : "5725d7183e8924a66c4ee937b253c0bd4b849b40",
                 orderReference : "DH783023",
                 orderDate : "1415379863",
-                amount : "100",
+                amount : "1",
                 currency : "USD",
                 productName : "Процессор Intel Core i5-4670 3.4GHz",
                 productPrice : "1000",
@@ -78,7 +78,7 @@ $sign = strtoupper(hash('sha256', implode(':', $arHash)));
                 clientFirstName : "Вася",
                 clientLastName : "Васечкин",
                 clientEmail : "some@mail.com",
-                clientPhone: "380631234567",
+                clientPhone: "380964227431",
 		straightWidget: true,
                 language: "EN"
             },
