@@ -65,7 +65,7 @@ $sign = strtoupper(hash('sha256', implode(':', $arHash)));
     var pay = function () {
         wayforpay.run({
                 merchantAccount : "shop_mochithings_com",
-                merchantDomainName : "www.market.ua",
+                merchantDomainName : "shop.mochithings.com",
                 authorizationType : "SimpleSignature",
                 merchantSignature : "3a2438bd02f7def5fd7330b8ff9ea0470057139f",
                 orderReference : "DH783023",
