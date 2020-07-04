@@ -64,14 +64,14 @@ $sign = strtoupper(hash('sha256', implode(':', $arHash)));
     var wayforpay = new Wayforpay();
     var pay = function () {
         wayforpay.run({
-                merchantAccount : "test_merch_n1",
+                merchantAccount : "shop_mochithings_com",
                 merchantDomainName : "www.market.ua",
                 authorizationType : "SimpleSignature",
-                merchantSignature : "b95932786cbe243a76b014846b63fe92",
+                merchantSignature : "3a2438bd02f7def5fd7330b8ff9ea0470057139f",
                 orderReference : "DH783023",
                 orderDate : "1415379863",
-                amount : "1547.36",
-                currency : "UAH",
+                amount : "100",
+                currency : "USD",
                 productName : "Процессор Intel Core i5-4670 3.4GHz",
                 productPrice : "1000",
                 productCount : "1",
