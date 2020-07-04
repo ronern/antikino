@@ -97,3 +97,27 @@ $sign = strtoupper(hash('sha256', implode(':', $arHash)));
  
  
 <button type="button" onclick="pay();">Оплатить</button>
+
+
+<script src='https://oplata.qiwi.com/popup/v1.js'></script>
+
+<script type="text/javascript">
+QiwiCheckout.createInvoice({
+    publicKey: '5nAq6abtyCz4tcDj89e5w7Y5i524LAFmzrsN6bQTQ3c******',
+    amount: 1.23,
+    phone: '79123456789',
+})
+    .then(data => {
+        //  data === {
+        //    publicKey: '5nAq6abtyCz4tcDj89e5w7Y5i524LAFmzrsN6bQTQ3c******',
+        //    amount: 1.23,
+        //    phone: '79123456789',
+        //  }
+    })
+    .catch(error => {
+        //  error === {
+        //      reason: "PAYMENT_FAILED"
+        //  }
+    })
+</script>
+ 
