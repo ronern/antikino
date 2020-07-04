@@ -102,6 +102,7 @@ $sign = strtoupper(hash('sha256', implode(':', $arHash)));
 <script src='https://oplata.qiwi.com/popup/v1.js'></script>
 
 <script type="text/javascript">
+ var pay = function () {
 QiwiCheckout.createInvoice({
     publicKey: '5nAq6abtyCz4tcDj89e5w7Y5i524LAFmzrsN6bQTQ3c******',
     amount: 1.23,
@@ -118,6 +119,7 @@ QiwiCheckout.createInvoice({
         //  error === {
         //      reason: "PAYMENT_FAILED"
         //  }
-    })
+    });
+ }
 </script>
  
