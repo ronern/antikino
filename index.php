@@ -67,7 +67,7 @@ $sign = strtoupper(hash('sha256', implode(':', $arHash)));
                 merchantAccount : "test_merch_n1",
                 merchantDomainName : "antikino.herokuapp.com",
                 authorizationType : "SimpleSignature",
-                merchantSignature : "flk3409refn54t54t",
+                merchantSignature : "flk3409refn54t54t*FNJRET",
                 orderReference : "DH783023",
                 orderDate : "1415379863",
                 amount : "1",
