@@ -64,10 +64,10 @@ $sign = strtoupper(hash('sha256', implode(':', $arHash)));
     var wayforpay = new Wayforpay();
     var pay = function () {
         wayforpay.run({
-                merchantAccount : "shop_mochithings_com",
-                merchantDomainName : "shop.mochithings.com",
+                merchantAccount : "antikino_herokuapp_com",
+                merchantDomainName : "antikino.herokuapp.com",
                 authorizationType : "SimpleSignature",
-                merchantSignature : "3a2438bd02f7def5fd7330b8ff9ea0470057139f",
+                merchantSignature : "5725d7183e8924a66c4ee937b253c0bd4b849b40",
                 orderReference : "DH783023",
                 orderDate : "1415379863",
                 amount : "100",
